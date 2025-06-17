@@ -128,8 +128,13 @@ body {
 
 /* Responsivo */
 @media (max-width: 768px) {
+  
+  
+  
   .header {
-    flex-direction: column;
+    background-image: url("/imagens/portada.jpg");
+   
+    flex-direction: row;
     gap: 1rem;
   }
   .cards-container {
