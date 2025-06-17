@@ -128,11 +128,13 @@ body {
 
 /* Responsivo */
 @media (max-width: 768px) {
-  
-  
+   
+  .hero { 
+  background: url("/imagens/portada.jpg") center/cover;
+  }
   
   .header {
-    background-image: url("/imagens/portada.jpg");
+    
    
     flex-direction: row;
     gap: 1rem;
