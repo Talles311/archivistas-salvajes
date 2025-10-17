@@ -13,7 +13,7 @@ const updateMonth = () => {
 document.addEventListener("DOMContentLoaded", () => {
   updateMonth();
   
-  // Exemplo de interação: Botão "Explorar Archivo"
+ //"Explorar Archivo"
   const btnExplorar = document.querySelector(".btn-explorar");
   btnExplorar.addEventListener("click", () => {
     alert("¡Redirigiendo al catálogo!"); // Substituir por redirecionamento real
