@@ -63,9 +63,8 @@ body {
 
 /* Hero */
 .hero {
-  height: 100vh;
-  padding-left: 20px;
-  background: url("/imagens/portada.jpg") center ;
+  height: 60vh;
+  background: url("/CSS/imagens/portada.jpg") center/cover;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
