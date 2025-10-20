@@ -63,13 +63,13 @@ body {
 
 /* Hero */
 .hero {
-  height: 60vh;
-  background: url("/imagens/portada.jpg") center/cover;
+  height: 100vh;
+  padding-left: 20px;
+  background: url("/imagens/portada.jpg") center ;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  
   color: white;
   
 }
