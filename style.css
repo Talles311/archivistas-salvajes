@@ -65,7 +65,7 @@ body {
 .hero {
   height: 60vh;
   box-sizing: border-box;
-  background: url("/CSS/imagens/portada.jpg") center/cover;
+  background: url("CSS/imagens/portada.jpg") center/cover;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -138,8 +138,13 @@ body {
 /* Responsivo */
 @media (max-width: 768px) {
    
+   .hero-content {
+          padding-left: 20px;
+
+   }
+
   .hero { 
-  background: url("/imagens/portada.jpg") center/cover;
+  background: url("CSS/imagens/portada.jpg") center/cover;
   }
   
   .header {
