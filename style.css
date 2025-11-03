@@ -1,6 +1,6 @@
 /* Reset e Variáveis */
 :root {
-  --amarelo: #E3B505;
+  --amarelo: #a304ffc0;
   --preto: #1A1A1A;
   --cinza-claro: #F5F5F5;
   --fonte-titulo: 'Montserrat', sans-serif;
@@ -55,7 +55,7 @@ body {
 
   background-color: var(--amarelo);
   border: none;
-  border-radius: 1em;
+  border-radius: 0.5em;
   padding: 0.5rem 1rem;
   font-family: var(--fonte-titulo);
   cursor: pointer;
@@ -63,7 +63,7 @@ body {
 
 /* Hero */
 .hero {
-  height: 60vh;
+  height: 90vh;
   box-sizing: border-box;
   background: url("CSS/imagens/portada.jpg") center/cover;
   display: flex;
