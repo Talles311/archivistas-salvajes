@@ -144,7 +144,7 @@ body {
    }
 
   .hero { 
-  background: url("CSS/imagens/portada.jpg") center/cover;
+  background: url("imagens/portada.jpg") center/cover;
   }
   
   .header {
